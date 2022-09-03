@@ -1,0 +1,6 @@
+# pip install -r requirements.txt 
+requests
+pandas
+beautifulsoup4
+dash
+dash-bootstrap-components
