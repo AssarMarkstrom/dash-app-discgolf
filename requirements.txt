@@ -4,3 +4,5 @@ pandas
 beautifulsoup4
 dash
 dash-bootstrap-components
+dash_design_kit
+# Set-ExecutionPolicy RemoteSigned -Scope CurrentUser

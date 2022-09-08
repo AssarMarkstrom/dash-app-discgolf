@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup
-import dash
+
 import requests
-import dash_core_components as dcc
-import dash_html_components as html
+
 import pandas as pd
 
 player = "8332"
@@ -24,10 +23,3 @@ for c in tags:
     my_list.append(temp_list)
 df = pd.DataFrame(my_list)
 print(df)
-
-'''
-app = dash.Dash(__name__)
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
-'''
